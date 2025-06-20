@@ -119,7 +119,7 @@ export default function Component() {
 
                 </div>
 
-                <style jsx>{`
+                <style>{`
                 @keyframes fade-in {
                     from {
                         opacity: 0;
@@ -208,7 +208,7 @@ export default function Component() {
                 </div>
 
                 {/* Custom styles for animation delays */}
-                <style jsx>{`
+                <style>{`
         .animation-delay-200 { animation-delay: 0.2s; }
         .animation-delay-400 { animation-delay: 0.4s; }
         .animation-delay-2000 { animation-delay: 2s; }
