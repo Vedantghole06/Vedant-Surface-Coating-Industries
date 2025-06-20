@@ -137,7 +137,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <style jsx>{`
+            <style>{`
                 @keyframes slideInLeft {
                     from {
                         opacity: 0;
