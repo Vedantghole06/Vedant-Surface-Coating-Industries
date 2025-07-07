@@ -321,9 +321,6 @@ import {
   Users,
   MapPin,
   Package,
-  Star,
-  UserCheck,
-  Lightbulb,
   Shield,
   Target,
   Eye,
@@ -346,7 +343,7 @@ const About = () => {
   useEffect(() => {
     setIsVisible(true);
 
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e: { clientX: any; clientY: any; }) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
 

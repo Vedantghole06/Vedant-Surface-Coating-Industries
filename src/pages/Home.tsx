@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Star, ArrowRight, Paintbrush, Shield, Truck, Palette, Award, Users, CheckCircle, Crown, Diamond, Zap } from "lucide-react"
+import { ArrowRight, Palette, Award, Users, CheckCircle, Crown, Diamond, Zap } from "lucide-react"
 import { Card, CardContent } from '@/components/ui/card';
 import { useState, useEffect } from 'react';
 
