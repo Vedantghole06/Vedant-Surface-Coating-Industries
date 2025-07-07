@@ -66,11 +66,15 @@ const Footer = () => {
                     {/* Company Info */}
                     <div className="lg:col-span-1">
                         <div className="flex items-center mb-6">
-                            <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
-                                <span className="text-white font-bold text-lg">V</span>
+                            <div className="flex-shrink-0 flex items-center group">
+                                <img
+                                    src="./logo.png"
+                                    alt="Logo"
+                                    className="h-10 w-auto object-contain rounded-md shadow-sm"
+                                />
                             </div>
                             <span className="ml-3 text-xl font-semibold">
-                                Vedant Surface Coating
+                                Vedant Surface Coating Industries
                             </span>
                         </div>
                         <p className="text-gray-300 text-sm leading-relaxed mb-6">

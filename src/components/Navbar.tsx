@@ -15,8 +15,12 @@ const Navbar = () => {
                     {/* Logo */}
                     <div className="flex items-center">
                         <div className="flex-shrink-0 flex items-center group">
-                            <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
-                                <span className="text-white font-bold text-xl">V</span>
+                            <div className="flex-shrink-0 flex items-center group">
+                                <img
+                                    src="./logo.png"
+                                    alt="Logo"
+                                    className="h-18 w-auto pb-2 object-contain"
+                                />
                             </div>
                             <div className="ml-4">
                                 <span className="text-xl font-bold text-gray-900 leading-tight">
